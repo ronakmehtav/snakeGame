@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="canvas"></div>
+    <style>
+      #canvas {
+        width: 1000px;
+        height: 600px;
+        left: 100px;
+        border: 2px solid black;
+        position: absolute; /*why does it need postion because to tell the child */
+        box-sizing: content-box;
+      }
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <script src="snakeGame.js"></script>
+  </body>
+</html>
